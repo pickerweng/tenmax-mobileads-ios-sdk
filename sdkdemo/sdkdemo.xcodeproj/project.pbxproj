@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		093DE3BD2C71004E00C82E4E /* TenMaxMobileAdsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 093DE3BC2C71004E00C82E4E /* TenMaxMobileAdsSDK */; };
 		0942BBC12C553BBA00CC09F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942BBC02C553BBA00CC09F3 /* AppDelegate.swift */; };
 		0942BBC32C553BBA00CC09F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942BBC22C553BBA00CC09F3 /* SceneDelegate.swift */; };
 		0942BBCA2C553BBB00CC09F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0942BBC92C553BBB00CC09F3 /* Assets.xcassets */; };
@@ -16,8 +15,22 @@
 		0942BBDD2C55509600CC09F3 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942BBDC2C55509600CC09F3 /* InterstitialViewController.swift */; };
 		0942BBDF2C5699D100CC09F3 /* ScreenBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942BBDE2C5699D100CC09F3 /* ScreenBannerViewController.swift */; };
 		0942BBE12C6493AA00CC09F3 /* InlineBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942BBE02C6493AA00CC09F3 /* InlineBannerViewController.swift */; };
+		097812A22C71D38500B8542A /* TenMaxMobileAdsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 097812A12C71D38500B8542A /* TenMaxMobileAdsSDK */; };
 		09EBD61B2C6A155700E5A806 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 09EBD61A2C6A155700E5A806 /* Toast */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0978129D2C71C55400B8542A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0942BBBD2C553BBA00CC09F3 /* sdkdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdkdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,7 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09EBD61B2C6A155700E5A806 /* Toast in Frameworks */,
-				093DE3BD2C71004E00C82E4E /* TenMaxMobileAdsSDK in Frameworks */,
+				097812A22C71D38500B8542A /* TenMaxMobileAdsSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +63,6 @@
 			children = (
 				0942BBBF2C553BBA00CC09F3 /* sdkdemo */,
 				0942BBBE2C553BBA00CC09F3 /* Products */,
-				09C1CE872C70EE2800C70C0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,13 +90,6 @@
 			path = sdkdemo;
 			sourceTree = "<group>";
 		};
-		09C1CE872C70EE2800C70C0F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,6 +100,7 @@
 				0942BBB92C553BBA00CC09F3 /* Sources */,
 				0942BBBA2C553BBA00CC09F3 /* Frameworks */,
 				0942BBBB2C553BBA00CC09F3 /* Resources */,
+				0978129D2C71C55400B8542A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +109,7 @@
 			name = sdkdemo;
 			packageProductDependencies = (
 				09EBD61A2C6A155700E5A806 /* Toast */,
-				093DE3BC2C71004E00C82E4E /* TenMaxMobileAdsSDK */,
+				097812A12C71D38500B8542A /* TenMaxMobileAdsSDK */,
 			);
 			productName = sdkdemo;
 			productReference = 0942BBBD2C553BBA00CC09F3 /* sdkdemo.app */;
@@ -135,7 +141,7 @@
 			mainGroup = 0942BBB42C553BBA00CC09F3;
 			packageReferences = (
 				09EBD6192C6A155700E5A806 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
-				093DE3BB2C71004E00C82E4E /* XCRemoteSwiftPackageReference "tenmax-mobileads-ios-sdk" */,
+				097812A02C71D38500B8542A /* XCRemoteSwiftPackageReference "tenmax-mobileads-ios-sdk" */,
 			);
 			productRefGroup = 0942BBBE2C553BBA00CC09F3 /* Products */;
 			projectDirPath = "";
@@ -403,12 +409,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		093DE3BB2C71004E00C82E4E /* XCRemoteSwiftPackageReference "tenmax-mobileads-ios-sdk" */ = {
+		097812A02C71D38500B8542A /* XCRemoteSwiftPackageReference "tenmax-mobileads-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pickerweng/tenmax-mobileads-ios-sdk";
 			requirement = {
 				kind = exactVersion;
-				version = 0.0.1;
+				version = 0.0.2;
 			};
 		};
 		09EBD6192C6A155700E5A806 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
@@ -422,9 +428,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		093DE3BC2C71004E00C82E4E /* TenMaxMobileAdsSDK */ = {
+		097812A12C71D38500B8542A /* TenMaxMobileAdsSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 093DE3BB2C71004E00C82E4E /* XCRemoteSwiftPackageReference "tenmax-mobileads-ios-sdk" */;
+			package = 097812A02C71D38500B8542A /* XCRemoteSwiftPackageReference "tenmax-mobileads-ios-sdk" */;
 			productName = TenMaxMobileAdsSDK;
 		};
 		09EBD61A2C6A155700E5A806 /* Toast */ = {

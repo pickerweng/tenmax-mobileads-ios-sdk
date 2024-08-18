@@ -1,13 +1,13 @@
 {
-  "originHash" : "5dc414d37974bc2b88bef8471d19a0e3a630e0b23ebc39e5a8e709544c35eee5",
+  "originHash" : "ae0a7d7badefcae383b11ad6df6af54ebf3c1da084dcf53d6e9f0c927eae8d91",
   "pins" : [
     {
       "identity" : "tenmax-mobileads-ios-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pickerweng/tenmax-mobileads-ios-sdk",
       "state" : {
-        "revision" : "1d745be34a7e02fe3a7beb0e323ec65384c9f16b",
-        "version" : "0.0.1"
+        "revision" : "70b1b1926ef380ee1996afda225571457bc2df6a",
+        "version" : "0.0.2"
       }
     },
     {
